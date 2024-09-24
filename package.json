@@ -1,0 +1,44 @@
+{
+  "name": "mit-beta",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/cssinjs": "^1.18.4",
+    "@apollo/client": "^3.10.1",
+    "antd": "^5.15.0",
+    "apollo-link-ws": "^1.0.20",
+    "dayjs": "^1.11.10",
+    "graphql": "^16.8.1",
+    "next": "^13.5.4",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^9.5.9",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-fast-marquee": "^1.6.4",
+    "react-lite-youtube-embed": "^2.4.0",
+    "react-photo-album": "^2.3.1",
+    "react-share": "^5.1.0",
+    "sass": "^1.72.0",
+    "subscriptions-transport-ws": "^0.9.19",
+    "swiper": "^11.0.7",
+    "swr": "^2.2.5",
+    "ultimate-react-multilevel-menu": "^3.4.9",
+    "yet-another-react-lightbox": "^3.17.5"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "terser-webpack-plugin": "^5.3.10",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,102 @@
+.swiper-slide {
+  font-size: 18px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.custom-prev,
+.custom-next {
+  min-width: 54px;
+  height: 37px;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 50px;
+}
+.custom-prev {
+  background-color: #e8e8e8;
+}
+.custom-next {
+  background-color: #1b2020;
+}
+.swiper-pagination-custom {
+  width: 38px;
+  text-align: center;
+}
+.swiper-container {
+  position: relative;
+}
+.swiper-option-outer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 12px;
+  padding: 10px;
+  border-radius: 70px;
+  background: #fff;
+  width: fit-content;
+  position: absolute;
+  left: 5%;
+  bottom: -25px;
+  z-index: 2;
+}
+.swiper-option-outer-sec {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 12px;
+  padding: 10px;
+  border-radius: 70px;
+  background: #fff;
+  width: fit-content;
+  margin: 30px auto 0 auto;
+}
+.videosSwiper {
+  height: auto;
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+}
+.testimonialSwiper {
+  margin: 60px 0 0 0;
+  padding-bottom: 60px;
+  .swiper-slide {
+    background: transparent;
+    margin-bottom: 40px;
+  }
+  .swiper-slide img {
+    height: fit-content;
+    width: fit-content;
+  }
+  .swiper-pagination-bullet {
+    width: 26px;
+    border-radius: 17px;
+    height: 6px;
+    background-color: #b3b1b1;
+    transition: width 0.8s ease, background-color 0.3s ease;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 45px;
+    border-radius: 17px;
+    background-color: #e69c05;
+  }
+}
+.swiper-pagination-bullet {
+  width: 26px;
+  border-radius: 17px;
+  height: 6px;
+  background-color: #b3b1b1;
+  transition: width 0.8s ease, background-color 0.3s ease;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 45px;
+  border-radius: 17px;
+  background-color: #e69c05;
+}

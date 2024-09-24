@@ -1,0 +1,126 @@
+@mixin para-text {
+  color: #1b2027;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+}
+.keyfeature {
+  background: url("../images/bg-feature.jpg") no-repeat;
+  background-size: cover;
+  background-position: right;
+  padding: 110px 0;
+  @media (max-width: 767px) {
+    background-position: center;
+  }
+  .featureinfo {
+    p {
+      @include para-text;
+      margin-bottom: 36px;
+      margin-top: 20px;
+    }
+    h4 {
+      color: #1b2027;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 30px;
+      font-family: "inter", sans-serif;
+    }
+    ul {
+      margin-top: 20px;
+      li {
+        width: 43%;
+        float: left;
+        margin-left: 20px;
+        color: #1b2027;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        margin-bottom: 20px;
+        @media (max-width: 767px) {
+          width: 90%;
+        }
+      }
+    }
+  }
+  a {
+    position: relative;
+    top: 30px;
+    display: inline-flex;
+    align-items: center;
+    img {
+      margin-left: 10px;
+    }
+  }
+}
+
+.specializations {
+  padding: 110px 0;
+  p {
+    @include para-text;
+    margin-bottom: 36px;
+    margin-top: 20px;
+  }
+  ul {
+    margin-top: 20px;
+    list-style-type: none;
+    li {
+      margin-left: 20px;
+      color: #1b2027;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 25px;
+      margin-bottom: 20px;
+      position: relative;
+      &:before {
+        content: url("../images/tick.svg");
+        position: absolute;
+        left: -25px;
+        top: 4px;
+      }
+    }
+    @media (max-width: 767px) {
+      margin-bottom: 60px;
+    }
+  }
+  a {
+    position: relative;
+    top: 30px;
+    display: inline-flex;
+    align-items: center;
+    img {
+      margin-left: 10px;
+    }
+  }
+}
+
+.highlightsec {
+  background-color: #111;
+  position: relative;
+  padding: 100px 0;
+
+  h2 {
+    color: #fff;
+    @media (max-width: 767px) {
+      margin-bottom: 60px;
+    }
+  }
+  ul {
+    list-style-type: none;
+    margin-top: 30px;
+    li {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 25px;
+      position: relative;
+      padding-left: 30px;
+      margin-bottom: 25px;
+      &:after {
+        content: url("../images/tick.svg");
+        position: absolute;
+        left: 0px;
+        top: 5px;
+      }
+    }
+  }
+}
