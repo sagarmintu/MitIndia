@@ -128,7 +128,6 @@ const AllUnits = () => {
               <div className="units-wrap flex-col">
                 <h3>{chooseUs?.unit1Title}</h3>
                 <p>{chooseUs?.unit1Desc}</p>
-                <Link href={(chooseUs?.unit1Url as string) || ""}>
                   <Button
                     type="text"
                     size="large"
@@ -142,9 +141,8 @@ const AllUnits = () => {
                       />
                     }
                   >
-                    Know More
+                    <Link href={(chooseUs?.unit1Url as string) || ""}>Know More</Link>
                   </Button>
-                </Link>
               </div>
             </div>
           </Col>
@@ -164,7 +162,6 @@ const AllUnits = () => {
               <div className="units-wrap flex-col">
                 <h3>{chooseUs?.unit2Title}</h3>
                 <p>{chooseUs?.unit2Desc}</p>
-                <Link href={(chooseUs?.unit2Url as string) || ""}>
                   <Button
                     type="text"
                     size="large"
@@ -178,9 +175,9 @@ const AllUnits = () => {
                       />
                     }
                   >
-                    Know More
+                    <Link href={(chooseUs?.unit2Url as string) || ""}>Know More</Link>
                   </Button>
-                </Link>
+                
               </div>
             </div>
           </Col>
@@ -200,7 +197,6 @@ const AllUnits = () => {
               <div className="units-wrap flex-col">
                 <h3>{chooseUs?.unit3Title}</h3>
                 <p>{chooseUs?.unit3Desc}</p>
-                <Link href={(chooseUs?.unit3Url as string) || ""}>
                   <Button
                     type="text"
                     size="large"
@@ -214,9 +210,8 @@ const AllUnits = () => {
                       />
                     }
                   >
-                    Know More
+                    <Link href={(chooseUs?.unit3Url as string) || ""}>Know More</Link>
                   </Button>
-                </Link>
               </div>
             </div>
           </Col>
@@ -236,7 +231,6 @@ const AllUnits = () => {
               <div className="units-wrap flex-col">
                 <h3>{chooseUs?.unit4Title}</h3>
                 <p>{chooseUs?.unit4Desc}</p>
-                <Link href={(chooseUs?.unit4Url as string) || ""}>
                   <Button
                     type="text"
                     size="large"
@@ -250,9 +244,8 @@ const AllUnits = () => {
                       />
                     }
                   >
-                    Know More
+                    <Link href={(chooseUs?.unit4Url as string) || ""}>Know More</Link>
                   </Button>
-                </Link>
               </div>
             </div>
           </Col>

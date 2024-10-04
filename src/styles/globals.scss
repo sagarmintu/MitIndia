@@ -1248,7 +1248,8 @@ img {
   background: none;
   .ant-btn-icon {
     position: absolute;
-    right: -32px;
+    // right: -32px;
+    right: 32px;
     top: 2px;
     transition: 0.3s all;
   }

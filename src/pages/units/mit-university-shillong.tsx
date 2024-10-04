@@ -166,10 +166,10 @@ const Units = ({ headerData }: { headerData: any }) => {
   return (
     <>
       <Head>
-        <title>MIT | MIT University Shillong</title>
+        <title>MIT University Shillong - Best Design College in Shillong</title>
         <meta
           name="description"
-          content="MIT University Shillong page description"
+          content="MITID India is a leading design college in Shillong, offering fashion design, UI/UX  design & product design programs. Pursue your career in the world of design."
         />
       </Head>
       <Navbar headerData={headerData} />

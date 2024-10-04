@@ -166,10 +166,10 @@ const Units = ({ headerData }: { headerData: any }) => {
   return (
     <>
       <Head>
-        <title>MIT | MIT AOE University</title>
+        <title>MIT ID AOE - Best Design College in Alandi</title>
         <meta
           name="description"
-          content="MIT AOE University page description"
+          content="MIT is one of the top design colleges in Alandi, offering programs in fashion design, UX design & product design. Start your career in the design world."
         />
       </Head>
       <Navbar headerData={headerData} />

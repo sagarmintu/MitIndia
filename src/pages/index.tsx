@@ -189,8 +189,10 @@ const Home = ({
   return (
     <>
       <Head>
-        <title>{aboutdata?.page.seo.title}</title>
-        <meta name="description" content={aboutdata?.page.seo.metaDesc} />
+        {/* <title>{aboutdata?.page.seo.title}</title> */}
+        <title>MIT ID India - MIT Institute of Design | Best Design College in India</title>
+        {/* <meta name="description" content={aboutdata?.page.seo.metaDesc} /> */}
+        <meta name="description" content="Kickstart your creative career at MITID, one of the best design colleges in India. Explore B.Des and M.Des programs in fashion, graphic, and UI/UX design" />
       </Head>
       <Navbar headerData={headerData} />
       <HomeCarousel

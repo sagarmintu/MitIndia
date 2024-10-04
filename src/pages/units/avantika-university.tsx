@@ -168,8 +168,8 @@ const Units = ({ headerData }: { headerData: any }) => {
   return (
     <>
       <Head>
-        <title>MIT | Avantika University</title>
-        <meta name="description" content="Avantika page description" />
+        <title>MIT Avantika University - Best Design College in Indore</title>
+        <meta name="description" content="The best design college in Indore offers B Des and M Des programs in graphic design, UI/UX design & fashion design. Kickstart your career in the design world!" />
       </Head>
       <Navbar headerData={headerData} />
       <section

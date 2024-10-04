@@ -166,10 +166,10 @@ const Units = ({ headerData }: { headerData: any }) => {
   return (
     <>
       <Head>
-        <title>MIT | MII ADT University</title>
+        <title>MIT ID Loni - Best Design College in Pune</title>
         <meta
           name="description"
-          content="MII ADT University page description"
+          content="Shape your future in design at MITID, the best design college in Pune. Enroll in B.Des and M.Des programs for fashion, graphic, and UI/UX design today!"
         />
       </Head>
       <Navbar headerData={headerData} />
